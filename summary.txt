@@ -1,0 +1,25 @@
+Requirements not met/not functional:
+Everything is pretty much functional except for a few features.
+1) the list is not cleared after exiting the program however the information is recorded on a database
+2) if you were to exit the program and start it up again and press print all it would display old info from the last session
+   as a result sometimes the deleterecord may not work until you delete the old record. However, after that the features function 
+   perfectly
+3) one nitpick I have is that when the user attempts to add a record with the same account no, I think it doesn't add the record but instead it fills ths space with zero.
+
+As far as program functionality these are the only problems I had, however when trying to do the git part of the assignment using the
+git mv command would give an error saying that is was a bad source , and for this reason I think I was unable to run the prgram using the getreport.sh, so I decided 
+to provide a proof script displaying the fact that it does compile. 
+
+Additional features/extra credit:
+The opy constructor and/or the overloaded assignment operator for the llist class were implemented.
+ 
+Future enhancements and/or general comments:
+
+In the future I would have to figure out how to empty the list correctl after quiting the program, I believe I would have to use the 
+deconstructor. 
+
+I possibly would implement a feature prevent the user from using/choosing any other options after reverse. 
+
+I also would like to troubleshoot the problems I was having with git.
+
+

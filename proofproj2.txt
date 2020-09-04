@@ -1,0 +1,53 @@
+Script started on Sat 14 Dec 2019 08:38:47 PM HST
+]0;fortinc@uhx02:~/project2[?1034huhx02:/home/f/fortinc/project2% make
+g++    -c -o user-interface.o user-interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project  user-interface.cpp llist.o
+]0;fortinc@uhx02:~/project2uhx02:/home/f/fortinc/project2% ./project
+
+ 	 	 Welcome to our bank database! 
+
+----------------------------------------------------
+|            Please Enter an option 1-7            |
+|                                                  |
+|       (1) ADD a new record                       |
+|       (2) MODIFY a record                        |
+|       (3) PRINT a record                         |
+|       (4) PRINT ALL records                      |
+|       (5) DELETE a record                        |
+|       (6) REVERSE the list                       |
+|       (7) QUIT the program                       |
+|                                                  |
+----------------------------------------------------
+1
+Please enter the account number
+123
+Please enter your name
+1 Caliana
+Please enter your address
+When you are done enter '*' and return to finish inputting
+1*
+0
+
+Your record was added!
+
+----------------------------------------------------
+|            Please Enter an option 1-7            |
+|                                                  |
+|       (1) ADD a new record                       |
+|       (2) MODIFY a record                        |
+|       (3) PRINT a record                         |
+|       (4) PRINT ALL records                      |
+|       (5) DELETE a record                        |
+|       (6) REVERSE the list                       |
+|       (7) QUIT the program                       |
+|                                                  |
+----------------------------------------------------
+7
+
+Your bank records have been added to a file.
+Goodbye!
+]0;fortinc@uhx02:~/project2uhx02:/home/f/fortinc/project2% exit
+exit
+
+Script done on Sat 14 Dec 2019 08:39:54 PM HST
